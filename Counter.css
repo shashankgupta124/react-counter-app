@@ -10,11 +10,15 @@
     background-color: #f9f9f9;
   }
   
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
+  .counter-container h1 {
+    color: darkred;
+      text-decoration: underline;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+ }
+
   button {
     margin: 0.5rem;
     padding: 0.6rem 1.2rem;

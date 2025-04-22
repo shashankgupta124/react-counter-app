@@ -8,6 +8,8 @@ export default function CounterApp(){
 
     return(
         <div className="counter-container">
+            <h1>Counter App</h1>
+            <br></br><br></br>
             <h2>Count: {count}</h2>
             <button onClick={() => setCount(count + 1)}>-  increments</button>
             <button onClick={() => setCount(count - 1)}>+  decrements</button>
